@@ -1,0 +1,17 @@
+management:
+  endpoint:
+    env:
+      show-values: ALWAYS
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  info:
+    git:
+      mode: full
+    os:
+      enabled: true
+    java:
+      enabled: true
+    env:
+      enabled: true
